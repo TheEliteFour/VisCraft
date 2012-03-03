@@ -482,7 +482,7 @@ public class Collector {
         items[1] = new ItemStack(266, 5);
         items[2] = new ItemStack(264, 1);
         items[3] = new ItemStack(331, 10);
-        if (!InventoryWorkaround.containsItem(user.getPlayer().getInventory(), false, items) && user.hasVis(1000)) {
+        if (!InventoryWorkaround.containsItem(user.getPlayer().getInventory(), false, items) || !user.hasVis(1000)) {
             user.getPlayer().sendMessage("§4You need,");
             user.getPlayer().sendMessage("§41 §bDiamond§4, 10 §bObsidian§4, 5 §bGold Ingots§4, and 10§b Redstone");
             user.getPlayer().sendMessage("§51000 Vis");
