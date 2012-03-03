@@ -1,0 +1,22 @@
+name: VisCraft
+main: net.aesircraft.VisCraft.VisCraft
+version: 1.0
+description: The intense magic plugin!
+authors: [TheEliteFour]
+softdepend: [Vault]
+commands:
+  vis:
+    description: Display your Vis!
+    usage: /<command>
+  ivis:
+    description: Display your Infused Vis!
+    usage: /<command>
+  cvis:
+    description: Display your Condensed Vis!
+    usage: /<command>
+  givevis:
+    description: Give a specified player Vis!
+    usage: /<command> <Player> <Type> <Amount>
+  setvalue:
+    description: Give a held item values for VisCraft!
+    usage: /<command> <Alignment> <Vis> <Charge> <Quality>
