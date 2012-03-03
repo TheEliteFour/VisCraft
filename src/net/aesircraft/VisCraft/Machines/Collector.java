@@ -422,7 +422,7 @@ public class Collector {
             items[3] = new ItemStack(331, 32);
             if (!(InventoryWorkaround.containsItem(user.getPlayer().getInventory(), false, items) && user.hasBrilliantVis(500))) {
                 user.getPlayer().sendMessage("§4You need,");
-                user.getPlayer().sendMessage("§410 §b Diamond§4, 32 §bObsidian§4, 16 §bGold Ingots§4, and 32§b Redstone");
+                user.getPlayer().sendMessage("§410 §bDiamond§4, 32 §bObsidian§4, 16 §bGold Ingots§4, and 32§b Redstone");
                 user.getPlayer().sendMessage("§5500 §aBrilliant Condensed Vis");
                 user.getPlayer().sendMessage("§4To upgrade this §5Collector§4 to §bStage 2§4.");
                 return;
@@ -442,7 +442,7 @@ public class Collector {
         items[3] = new ItemStack(331, 64);
         if (!(InventoryWorkaround.containsItem(user.getPlayer().getInventory(), false, items) && user.hasBrilliantVis(1000))) {
             user.getPlayer().sendMessage("§4You need,");
-            user.getPlayer().sendMessage("§420 §b Diamond§4, 64 §bObsidian§4, 32 §bGold Ingots§4, and 64§b Redstone");
+            user.getPlayer().sendMessage("§420 §bDiamond§4, 64 §bObsidian§4, 32 §bGold Ingots§4, and 64§b Redstone");
             user.getPlayer().sendMessage("§51000 §aBrilliant Condensed Vis");
             user.getPlayer().sendMessage("§4To upgrade this §5Collector§4 to §bStage 3§4.");
             return;
@@ -484,7 +484,7 @@ public class Collector {
         items[3] = new ItemStack(331, 10);
         if (!InventoryWorkaround.containsItem(user.getPlayer().getInventory(), false, items) && user.hasVis(1000)) {
             user.getPlayer().sendMessage("§4You need,");
-            user.getPlayer().sendMessage("§41 §b Diamond§4, 10 §bObsidian§4, 5 §bGold Ingots§4, and 10§b Redstone");
+            user.getPlayer().sendMessage("§41 §bDiamond§4, 10 §bObsidian§4, 5 §bGold Ingots§4, and 10§b Redstone");
             user.getPlayer().sendMessage("§51000 Vis");
             user.getPlayer().sendMessage("§4To construct a §5ECollector§4.");
             return;
@@ -676,6 +676,12 @@ public class Collector {
             type = "pure";
             color = "§f";
             string = "Pure Condensed Vis";
+            check = 1;
+        }
+        if (id == 11) {
+            type = "water";
+            color = "§1";
+            string = "Water Infused Vis";
             check = 1;
         }
         if (id == 1) {

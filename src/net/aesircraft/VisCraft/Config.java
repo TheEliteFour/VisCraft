@@ -39,12 +39,13 @@ public class Config {
         config.set("Own-Machines", "false");
         config.set("Use-Runes", "true");
         config.set("White-Rune", "true");
-        config.set("DarkBlue-Rune", "true");
-        config.set("DarkGreen-Rune", "true");
-        config.set("DarkRed-Rune", "true");
-        config.set("DarkAqua-Rune", "true");
-        config.set("Purple-Rune", "true");
-        config.set("Gold-Rune", "true");
+        config.set("Orange-Rune", "true");
+        config.set("Magenta-Rune", "true");
+        config.set("Yellow-Rune", "true");
+        config.set("Yellow-Max", "500000");
+        config.set("LightBlue-Rune", "true");
+        config.set("Pink-Rune", "true");
+        config.set("Lime-Rune", "true");
         try {
             config.save(file);
         } catch (IOException ex) {
@@ -70,11 +71,12 @@ public class Config {
         ownership = config.getBoolean("Own-Machines", false);
         runes = config.getBoolean("Use-Runes", true);
         RuneConfigs.white = config.getBoolean("White-Rune", true);
-        RuneConfigs.darkblue = config.getBoolean("DarkBlue-Rune", true);
-        RuneConfigs.darkgreen = config.getBoolean("DarkGreen-Rune", true);
-        RuneConfigs.darkred = config.getBoolean("DarkRed-Rune", true);
-        RuneConfigs.darkaqua = config.getBoolean("DarkAqua-Rune", true);
-        RuneConfigs.purple = config.getBoolean("Purple-Rune", true);
-        RuneConfigs.gold = config.getBoolean("Gold-Rune", true);
+        RuneConfigs.orange = config.getBoolean("Orange-Rune", true);
+        RuneConfigs.magenta = config.getBoolean("Magenta-Rune", true);
+        RuneConfigs.yellow = config.getBoolean("Yellow-Rune", true);
+        RuneConfigs.yellowmax = config.getInt("Yellow-Max", 500000);
+        RuneConfigs.lightblue = config.getBoolean("LightBlue-Rune", true);
+        RuneConfigs.pink = config.getBoolean("Pink-Rune", true);
+        RuneConfigs.lime = config.getBoolean("Lime-Rune", true);
     }
 }

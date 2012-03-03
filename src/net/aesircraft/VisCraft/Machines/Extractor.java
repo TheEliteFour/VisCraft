@@ -415,7 +415,7 @@ public class Extractor {
             items[3] = new ItemStack(331, 25);
             if (!(InventoryWorkaround.containsItem(user.getPlayer().getInventory(), false, items) && user.hasDarkVis(500))) {
                 user.getPlayer().sendMessage("§4You need,");
-                user.getPlayer().sendMessage("§45 §b Diamond§4, 20 §bObsidian§4, 10 §bGold Ingots§4, and 25§b Redstone");
+                user.getPlayer().sendMessage("§45 §bDiamond§4, 20 §bObsidian§4, 10 §bGold Ingots§4, and 25§b Redstone");
                 user.getPlayer().sendMessage("§5500 §8Dark Condensed Vis");
                 user.getPlayer().sendMessage("§4To upgrade this §5Extractor§4 to §bStage 2§4.");
                 return;
@@ -435,7 +435,7 @@ public class Extractor {
         items[3] = new ItemStack(331, 50);
         if (!(InventoryWorkaround.containsItem(user.getPlayer().getInventory(), false, items) && user.hasDarkVis(1000))) {
             user.getPlayer().sendMessage("§4You need,");
-            user.getPlayer().sendMessage("§410 §b Diamond§4, 50 §bObsidian§4, 25 §bGold Ingots§4, and 50§b Redstone");
+            user.getPlayer().sendMessage("§410 §bDiamond§4, 50 §bObsidian§4, 25 §bGold Ingots§4, and 50§b Redstone");
             user.getPlayer().sendMessage("§51000 §8Dark Condensed Vis");
             user.getPlayer().sendMessage("§4To upgrade this §5Extractor§4 to §bStage 3§4.");
             return;
@@ -477,7 +477,7 @@ public class Extractor {
         items[3] = new ItemStack(331, 15);
         if (!InventoryWorkaround.containsItem(user.getPlayer().getInventory(), false, items)) {
             user.getPlayer().sendMessage("§4You need,");
-            user.getPlayer().sendMessage("§41 §b Diamond§4, 10 §bObsidian§4, 5 §bGold Ingots§4, and 15§b Redstone");
+            user.getPlayer().sendMessage("§41 §bDiamond§4, 10 §bObsidian§4, 5 §bGold Ingots§4, and 15§b Redstone");
             user.getPlayer().sendMessage("§4To construct an §5Extractor§4.");
             return;
         }

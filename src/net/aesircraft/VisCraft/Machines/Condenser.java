@@ -933,7 +933,7 @@ public class Condenser {
             items[3] = new ItemStack(331, 96);
             if (!(InventoryWorkaround.containsItem(user.getPlayer().getInventory(), false, items) && user.hasUnstableVis(1000))) {
                 user.getPlayer().sendMessage("§4You need,");
-                user.getPlayer().sendMessage("§420 §b Diamond§4, 50 §bNether Brick§4, 32 §bEndStone§4, and 96§b Redstone");
+                user.getPlayer().sendMessage("§420 §bDiamond§4, 50 §bNether Brick§4, 32 §bEndStone§4, and 96§b Redstone");
                 user.getPlayer().sendMessage("§51000 §cUnstable Condensed Vis");
                 user.getPlayer().sendMessage("§4To upgrade this §5Condenser§4 to §bStage 2§4.");
                 return;
@@ -953,7 +953,7 @@ public class Condenser {
         items[3] = new ItemStack(331, 128);
         if (!(InventoryWorkaround.containsItem(user.getPlayer().getInventory(), false, items) && user.hasUnstableVis(10000))) {
             user.getPlayer().sendMessage("§4You need,");
-            user.getPlayer().sendMessage("§425 §b Diamond§4, 64 §bNether Brick§4, 64 §bEndStone§4, and 128§b Redstone");
+            user.getPlayer().sendMessage("§425 §bDiamond§4, 64 §bNether Brick§4, 64 §bEndStone§4, and 128§b Redstone");
             user.getPlayer().sendMessage("§510000 §cUnstable Condensed Vis");
             user.getPlayer().sendMessage("§4To upgrade this §5Condenser§4 to §bStage 3§4.");
             return;
@@ -1189,8 +1189,8 @@ public class Condenser {
         items[3] = new ItemStack(331, 64);
         if (!(InventoryWorkaround.containsItem(user.getPlayer().getInventory(), false, items) && user.hasFireVis(1000))) {
             user.getPlayer().sendMessage("§4You need,");
-            user.getPlayer().sendMessage("§410 §b Diamond§4, 25 §bNether Brick§4, 16 §bEndStone§4, and 64§b Redstone");
-            user.getPlayer().sendMessage("§51,000 Fire Vis§4");
+            user.getPlayer().sendMessage("§410 §bDiamond§4, 25 §bNether Brick§4, 16 §bEndStone§4, and 64§b Redstone");
+            user.getPlayer().sendMessage("§51,000 Fire Infused Vis§4");
             user.getPlayer().sendMessage("§4To construct a §5Condenser§4.");
             return;
         }

@@ -1,6 +1,6 @@
 name: VisCraft
 main: net.aesircraft.VisCraft.VisCraft
-version: 1.0
+version: 1.0a
 description: The intense magic plugin!
 authors: [TheEliteFour]
 softdepend: [Vault]

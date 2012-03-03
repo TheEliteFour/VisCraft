@@ -742,7 +742,7 @@ public class User {
         if (!Config.permissions) {
             return true;
         }
-        return VisCraft.permission.has(player, "viscraft." + color);
+        return VisCraft.permission.has(player, "viscraft.runes." + color);
 
     }
 }

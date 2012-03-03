@@ -32,64 +32,64 @@ public class RuneEffect {
             White.execute(user);
             return true;
         }
-        if (color == 1 && DarkBlue.isEnabled()) {
-            if (!DarkBlue.checkReqs(user)) {
+        if (color == 1 && Orange.isEnabled()) {
+            if (!Orange.checkReqs(user)) {
                 user.getPlayer().sendMessage("§4This §5Vis Rune§4 requires,");
-                user.getPlayer().sendMessage(DarkBlue.getReqs());
+                user.getPlayer().sendMessage(Orange.getReqs());
                 return false;
             }
-            DarkBlue.takeReqs(user);
-            DarkBlue.execute(user);
+            Orange.takeReqs(user);
+            Orange.execute(user);
             return true;
         }
-        if (color == 2 && DarkGreen.isEnabled()) {
-            if (!DarkGreen.checkReqs(user)) {
+        if (color == 2 && Magenta.isEnabled()) {
+            if (!Magenta.checkReqs(user)) {
                 user.getPlayer().sendMessage("§4This §5Vis Rune§4 requires,");
-                user.getPlayer().sendMessage(DarkGreen.getReqs());
+                user.getPlayer().sendMessage(Magenta.getReqs());
                 return false;
             }
-            DarkGreen.takeReqs(user);
-            DarkGreen.execute(user, location);
+            Magenta.takeReqs(user);
+            Magenta.execute(user, location);
             return true;
         }
-        if (color == 3 && DarkAqua.isEnabled()) {
-            if (!DarkAqua.checkReqs(user)) {
+        if (color == 3 && LightBlue.isEnabled()) {
+            if (!LightBlue.checkReqs(user)) {
                 user.getPlayer().sendMessage("§4This §5Vis Rune§4 requires,");
-                user.getPlayer().sendMessage(DarkAqua.getReqs());
+                user.getPlayer().sendMessage(LightBlue.getReqs());
                 return false;
             }
-            DarkAqua.takeReqs(user);
-            DarkAqua.execute(user, location);
+            LightBlue.takeReqs(user);
+            LightBlue.execute(user, location);
             return true;
         }
-        if (color == 4 && DarkRed.isEnabled()) {
-            if (!DarkRed.checkReqs(user)) {
+        if (color == 4 && Yellow.isEnabled()) {
+            if (!Yellow.checkReqs(user)) {
                 user.getPlayer().sendMessage("§4This §5Vis Rune§4 requires,");
-                user.getPlayer().sendMessage(DarkRed.getReqs());
+                user.getPlayer().sendMessage(Yellow.getReqs());
                 return false;
             }
-            DarkRed.takeReqs(user);
-            DarkRed.execute(user);
+            Yellow.takeReqs(user);
+            Yellow.execute(user);
             return true;
         }
-        if (color == 5 && Purple.isEnabled()) {
-            if (!Purple.checkReqs(user)) {
+        if (color == 5 && Pink.isEnabled()) {
+            if (!Pink.checkReqs(user)) {
                 user.getPlayer().sendMessage("§4This §5Vis Rune§4 requires,");
-                user.getPlayer().sendMessage(Purple.getReqs());
+                user.getPlayer().sendMessage(Pink.getReqs());
                 return false;
             }
-            Purple.takeReqs(user);
-            Purple.execute(user);
+            Pink.takeReqs(user);
+            Pink.execute(user);
             return true;
         }
-        if (color == 5 && Gold.isEnabled()) {
-            if (!Gold.checkReqs(user, location)) {
+        if (color == 5 && Lime.isEnabled()) {
+            if (!Lime.checkReqs(user, location)) {
                 user.getPlayer().sendMessage("§4This §5Vis Rune§4 requires,");
-                user.getPlayer().sendMessage(Gold.getReqs());
+                user.getPlayer().sendMessage(Lime.getReqs());
                 return false;
             }
-            Gold.takeReqs(user);
-            Gold.execute(user, location);
+            Lime.takeReqs(user);
+            Lime.execute(user, location);
             return true;
         }
 

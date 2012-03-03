@@ -649,7 +649,7 @@ public class Infuser {
             items[3] = new ItemStack(331, 45);
             if (!(InventoryWorkaround.containsItem(user.getPlayer().getInventory(), false, items) && user.hasPureVis(1000))) {
                 user.getPlayer().sendMessage("§4You need,");
-                user.getPlayer().sendMessage("§415 §b Diamond§4, 20 §bIron Blocks§4, 64 §bGlowStone§4, and 45§b Redstone");
+                user.getPlayer().sendMessage("§415 §bDiamond§4, 20 §bIron Blocks§4, 64 §bGlowStone§4, and 45§b Redstone");
                 user.getPlayer().sendMessage("§51000 §fPure Condensed Vis");
                 user.getPlayer().sendMessage("§4To upgrade this §5Infuser§4 to §bStage 2§4.");
                 return;
@@ -669,7 +669,7 @@ public class Infuser {
         items[3] = new ItemStack(331, 64);
         if (!(InventoryWorkaround.containsItem(user.getPlayer().getInventory(), false, items) && user.hasPureVis(10000))) {
             user.getPlayer().sendMessage("§4You need,");
-            user.getPlayer().sendMessage("§420 §b Diamond§4, 32 §bIron Blocks§4, 128 §bGlowStone§4, and 64§b Redstone");
+            user.getPlayer().sendMessage("§420 §bDiamond§4, 32 §bIron Blocks§4, 128 §bGlowStone§4, and 64§b Redstone");
             user.getPlayer().sendMessage("§510000 §fPure Condensed Vis");
             user.getPlayer().sendMessage("§4To upgrade this §5Infuser§4 to §bStage 3§4.");
             return;
@@ -729,7 +729,7 @@ public class Infuser {
         items[3] = new ItemStack(331, 25);
         if (!(InventoryWorkaround.containsItem(user.getPlayer().getInventory(), false, items) && user.hasVis(10000))) {
             user.getPlayer().sendMessage("§4You need,");
-            user.getPlayer().sendMessage("§45 §b Diamond§4, 10 §bIron Blocks§4, 32 §bGlowStone§4, and 25§b Redstone");
+            user.getPlayer().sendMessage("§45 §bDiamond§4, 10 §bIron Blocks§4, 32 §bGlowStone§4, and 25§b Redstone");
             user.getPlayer().sendMessage("§510,000 Vis§4");
             user.getPlayer().sendMessage("§4To construct an §5Infuser§4.");
             return;
