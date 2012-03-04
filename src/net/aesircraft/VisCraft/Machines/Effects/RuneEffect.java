@@ -72,7 +72,7 @@ public class RuneEffect {
             Yellow.execute(user);
             return true;
         }
-        if (color == 5 && Pink.isEnabled()) {
+        if (color == 6 && Pink.isEnabled()) {
             if (!Pink.checkReqs(user)) {
                 user.getPlayer().sendMessage("§4This §5Vis Rune§4 requires,");
                 user.getPlayer().sendMessage(Pink.getReqs());

@@ -54,6 +54,7 @@ public class Rune {
         rune.load(origin);
         if (rune.execute(user)) {
             remove();
+            user.getPlayer().sendMessage("§eThe §5Vis Rune's§e effect happens before your eyes!");
         }
     }
 }
