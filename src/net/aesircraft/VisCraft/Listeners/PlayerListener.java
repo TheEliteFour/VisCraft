@@ -3,10 +3,12 @@ package net.aesircraft.VisCraft.Listeners;
 import net.aesircraft.VisCraft.Player.User;
 import net.aesircraft.VisCraft.VisCraft;
 import org.bukkit.Bukkit;
+import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.SignChangeEvent;
+import org.bukkit.event.entity.PlayerDeathEvent;
 import org.bukkit.event.player.PlayerInteractEvent;
 
 public class PlayerListener implements Listener {
@@ -20,6 +22,13 @@ public class PlayerListener implements Listener {
         User user = new User();
         user.load(event.getPlayer());
         user.checkInteract(event);
+    }
+    
+    @EventHandler(priority = EventPriority.HIGHEST)
+    public void onPlayerDeath(final PlayerDeathEvent event) {        
+        User user = new User();
+        user.load(((Player)event.getEntity()));
+        user.died();
     }
 
     @EventHandler(priority = EventPriority.HIGHEST)

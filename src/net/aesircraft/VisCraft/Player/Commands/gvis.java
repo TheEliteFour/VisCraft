@@ -78,7 +78,7 @@ public class gvis implements CommandExecutor {
                 return true;
             }
 
-            if (!user.hasRoomForWaterVis(vis)) {
+            if (!u2.hasRoomForWaterVis(vis)) {
                 player.sendMessage("§4They do not have enough space for that much§4.");
                 return true;
             }
@@ -97,7 +97,7 @@ public class gvis implements CommandExecutor {
                 return true;
             }
 
-            if (!user.hasRoomForEarthVis(vis)) {
+            if (!u2.hasRoomForEarthVis(vis)) {
                 player.sendMessage("§4They do not have enough space for that much§4.");
                 return true;
             }
@@ -116,7 +116,7 @@ public class gvis implements CommandExecutor {
                 return true;
             }
 
-            if (!user.hasRoomForFireVis(vis)) {
+            if (!u2.hasRoomForFireVis(vis)) {
                 player.sendMessage("§4They do not have enough space for that much§4.");
                 return true;
             }
@@ -135,7 +135,7 @@ public class gvis implements CommandExecutor {
                 return true;
             }
 
-            if (!user.hasRoomForAirVis(vis)) {
+            if (!u2.hasRoomForAirVis(vis)) {
                 player.sendMessage("§4They do not have enough space for that much§4.");
                 return true;
             }
@@ -154,7 +154,7 @@ public class gvis implements CommandExecutor {
                 return true;
             }
 
-            if (!user.hasRoomForDarkVis(vis)) {
+            if (!u2.hasRoomForDarkVis(vis)) {
                 player.sendMessage("§4They do not have enough space for that much§4.");
                 return true;
             }
@@ -173,7 +173,7 @@ public class gvis implements CommandExecutor {
                 return true;
             }
 
-            if (!user.hasRoomForPureVis(vis)) {
+            if (!u2.hasRoomForPureVis(vis)) {
                 player.sendMessage("§4They do not have enough space for that much§4.");
                 return true;
             }
@@ -192,7 +192,7 @@ public class gvis implements CommandExecutor {
                 return true;
             }
 
-            if (!user.hasRoomForBrilliantVis(vis)) {
+            if (!u2.hasRoomForBrilliantVis(vis)) {
                 player.sendMessage("§4They do not have enough space for that much§4.");
                 return true;
             }
@@ -211,7 +211,7 @@ public class gvis implements CommandExecutor {
                 return true;
             }
 
-            if (!user.hasRoomForEtherealVis(vis)) {
+            if (!u2.hasRoomForEtherealVis(vis)) {
                 player.sendMessage("§4They do not have enough space for that much§4.");
                 return true;
             }
@@ -230,7 +230,7 @@ public class gvis implements CommandExecutor {
                 return true;
             }
 
-            if (!user.hasRoomForUnstableVis(vis)) {
+            if (!u2.hasRoomForUnstableVis(vis)) {
                 player.sendMessage("§4They do not have enough space for that much§4.");
                 return true;
             }
@@ -249,7 +249,7 @@ public class gvis implements CommandExecutor {
                 return true;
             }
 
-            if (!user.hasRoomForVis(vis)) {
+            if (!u2.hasRoomForVis(vis)) {
                 player.sendMessage("§4They do not have enough space for that much§4.");
                 return true;
             }
